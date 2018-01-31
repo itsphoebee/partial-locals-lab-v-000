@@ -1,5 +1,4 @@
 <%= form_tag @student do %>
-  <%= f.label :name %>
-  <%= f.text_field_tag :name %>
-  <%= f.submit %>
+  <input id="name" name="name" type="text" />
+  <input name="commit" type="submit" value="Search" />
 <% end %>
